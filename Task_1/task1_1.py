@@ -27,14 +27,16 @@ for i in range(len(numlist)):
         newlist.append(numlist[i])
 print(f'новый список после удаления {newlist}')
 
+
+# second tart
 x = int(input("введите заданное число :"))
 r = 1
 f = 0
-for i in range(len(numlist) - 1):
-    for j in range(r, len(numlist)):
-        if numlist[i] + numlist[j] == x:
-            print(f'подмножество данного множества   из 2-х чисел : {numlist[i]}, {numlist[j]}')
-            print(f'их сумма равна {numlist[i] + numlist[j]}')
+for i in range(len(newlist) - 1):
+    for j in range(r, len(newlist)):
+        if newlist[i] + newlist[j] == x:
+            print(f'подмножество данного множества   из 2-х чисел : {newlist[i]}, {newlist[j]}')
+            print(f'их сумма равна {newlist[i] + newlist[j]}')
             f += 1
     r += 1
 if f == 0:
