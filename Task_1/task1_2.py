@@ -15,3 +15,6 @@ print(f'наибольший нечетный элемент {max(list_1)}')
 list_2 = list(map(lambda x: abs(x), numlist))
 print(list_2)
 print(f'минимальный по модулю элемент списка {min(list_2)}')
+
+
+
